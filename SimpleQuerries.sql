@@ -1,10 +1,13 @@
 Упражнение 1, Прости заявки
+
 I.За базата от данни Movies 
-1. Напишете заявка, която извежда адреса на студио ‘Disney’ 
+
+-- 1. Напишете заявка, която извежда адреса на студио ‘Disney’ 
 SELECT address
 FROM Studio
 WHERE name LIKE 'Disney';
-2. Напишете заявка, която извежда рождената дата на актьора Jack Nicholson
+
+-- 2. Напишете заявка, която извежда рождената дата на актьора Jack Nicholson
 SELECT birthdate
 FROM moviestar
 WHERE name LIKE 'Jack Nicholson';
